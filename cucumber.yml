@@ -1,0 +1,8 @@
+<% common = "--tags ~@wip --strict -r features/step_definitions" %>
+
+firefox: -r features/support/firefox_env.rb <%= common %> ./features
+chrome: -r features/support/chrome_env.rb <%= common %> ./features
+mobile_user_agent: -r features/support/mobile_user_agent_env.rb <%= common %> ./features
+
+remote_android: -r features/support/remote/android_env.rb <%= common %> ./features
+remote_ie: -r features/support/remote/ie_env.rb <%= common %> ./features
