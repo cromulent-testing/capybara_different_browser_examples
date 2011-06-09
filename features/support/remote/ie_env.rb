@@ -1,9 +1,7 @@
 require 'capybara'
 require 'capybara/dsl'
 
-#you need selenium-server at least version 2 running on the target machine http://code.google.com/p/selenium/downloads/detail?name=selenium-server-2.0rc2.zip
-#you will need java
-#start server with java -jar selenium-server-standalone-2.0rc2.jar
+#See README.md for dependencies
 
 Capybara.register_driver :remote_ie do |app|
   Capybara::Driver::Selenium.new(app,

@@ -1,7 +1,7 @@
 require 'capybara'
 require 'capybara/dsl'
 
-#you need chrome driver installed, http://code.google.com/p/selenium/wiki/ChromeDriver
+#See README.md for dependencies
 
 Capybara.current_driver = :selenium
 

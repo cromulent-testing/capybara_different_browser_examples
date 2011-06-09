@@ -1,4 +1,5 @@
 source :rubyforge
 
-gem 'cucumber'
-gem 'capybara'
+gem 'rake', '0.8.7'
+gem 'cucumber', '0.10.6'
+gem 'capybara', '0.4.1.2'

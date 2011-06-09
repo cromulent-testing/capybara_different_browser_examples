@@ -1,9 +1,7 @@
 require 'capybara'
 require 'capybara/dsl'
 
-#iphone sdk from http://developer.apple.com/devcenter/ios/index.action
-#iphonedriver source from http://code.google.com/p/webdriver/source/checkout
-#Set your build configuration to Simulator / iPhone OS 3.2 / iWebDriver then build and go
+#See README.md for dependencies
 
 Capybara.register_driver :iphone do |app|
 
