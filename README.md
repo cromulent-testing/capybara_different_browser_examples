@@ -1,5 +1,6 @@
 # Capybara different browser example
 
+
 ## To get it running
 Install ruby and bundler http://gembundler.com/
 
