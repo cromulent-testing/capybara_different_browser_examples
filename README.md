@@ -42,7 +42,7 @@ Runs the tests using Firefox with a mobile user agent set in the profile
 
 * You need the iphone sdk from http://developer.apple.com/devcenter/ios/index.action
 * You need iphonedriver source from http://code.google.com/p/webdriver/source/checkout
-* If the IPhone sdk Set your build configuration to Simulator / iPhone OS 3.2 / iWebDriver then build and go
+* If the IPhone sdk Set your build configuration to Simulator / iPhone OS 4.3 / iWebDriver then build and go
 
         rake remote_iphone
 
@@ -50,6 +50,5 @@ Runs the tests using Firefox with a mobile user agent set in the profile
 
 Copyright (c) 2011 Cromulent-Testing.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
-
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+![Creative Commons Attribution-NonCommercial-ShareAlike 3.0](http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png "Creative Commons Attribution-NonCommercial-ShareAlike 3.0")
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/ "Creative Commons Attribution-NonCommercial-ShareAlike 3.0")
