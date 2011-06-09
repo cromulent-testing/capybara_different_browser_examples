@@ -15,7 +15,7 @@ To run the test on Firefox
 ### Chrome
 * You need chrome driver installed and on your path get it from http://code.google.com/p/selenium/wiki/ChromeDriver
 
-    `rake chrome`
+      `rake chrome`
 
 ### Firefox with a Mobile user agent
 Runs the tests using Firefox with a mobile user agent set in the profile
@@ -28,7 +28,7 @@ Runs the tests using Firefox with a mobile user agent set in the profile
 * You need selenium-server at least version 2 running on the target machine http://code.google.com/p/selenium/downloads/detail?name=selenium-server-2.0rc2.zip
 * start server with `java -jar selenium-server-standalone-2.0rc2.jar`
 
-    `rake remote_ie`
+      `rake remote_ie`
 
 ### Android
 
@@ -36,7 +36,7 @@ Runs the tests using Firefox with a mobile user agent set in the profile
 * You need the android sdk, platform tools etc installed http://developer.android.com/sdk/index.html
 * You need a tunnel set up <sdk install dir>/platform-tools/adb forward tcp:8080 tcp:8080
 
-    `rake remote_android`
+      `rake remote_android`
 
 ### IPhone
 
@@ -44,7 +44,7 @@ Runs the tests using Firefox with a mobile user agent set in the profile
 * You need iphonedriver source from http://code.google.com/p/webdriver/source/checkout
 * If the IPhone sdk Set your build configuration to Simulator / iPhone OS 3.2 / iWebDriver then build and go
 
-    `rake remote_iphone`
+      `rake remote_iphone`
 
 ## Copyright
 
