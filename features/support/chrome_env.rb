@@ -10,7 +10,7 @@ Capybara.register_driver :selenium do |app|
 end
 
 Capybara.run_server = false
-Capybara.default_driver = :css
+Capybara.default_selector = :css
 
 
 World Capybara

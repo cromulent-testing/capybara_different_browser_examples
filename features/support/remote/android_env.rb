@@ -12,6 +12,6 @@ end
 
 Capybara.run_server = false
 Capybara.current_driver = :android
-Capybara.default_driver = :css
+Capybara.default_selector = :css
 
 World Capybara

@@ -11,6 +11,6 @@ end
 
 Capybara.run_server = false
 Capybara.current_driver = :iphone
-Capybara.default_driver = :css
+Capybara.default_selector = :css
 
 World Capybara

@@ -3,7 +3,7 @@ require 'capybara/dsl'
 
 Capybara.current_driver = :selenium
 Capybara.run_server = false
-Capybara.default_driver = :css
+Capybara.default_selector = :css
 
 World Capybara
 
