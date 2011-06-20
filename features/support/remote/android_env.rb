@@ -7,7 +7,7 @@ Capybara.register_driver :android do |app|
 
   Capybara::Driver::Selenium.new(app,
                                  :browser => :android,
-                                 :url => 'http://localhost:8080/hub')
+                                 :url => 'http://localhost:8080/wd/hub')
 end
 
 Capybara.run_server = false
