@@ -5,9 +5,10 @@ require 'capybara/dsl'
 
 Capybara.register_driver :android do |app|
 
+  #sometimes you might need to add /wd to the url before hub
   Capybara::Driver::Selenium.new(app,
                                  :browser => :android,
-                                 :url => 'http://localhost:8080/wd/hub')
+                                 :url => 'http://localhost:8080/hub')
 end
 
 Capybara.run_server = false

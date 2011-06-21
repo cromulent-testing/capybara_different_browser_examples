@@ -7,8 +7,7 @@ Capybara.register_driver :iphone do |app|
 
   Capybara::Driver::Selenium.new(app,
                                  :browser => :iphone,
-                                #need your ios devices ip address
-                                 :url => 'http://10.112.198.25:3001/hub')
+                                 :url => 'http://localhost:3001/hub')
 end
 
 Capybara.run_server = false

@@ -35,7 +35,7 @@ Runs the tests using Firefox with a mobile user agent set in the profile
 
 * You need AndroidDriver installed on the target device http://code.google.com/p/selenium/wiki/AndroidDriver
 * You need the android sdk, platform tools etc installed http://developer.android.com/sdk/index.html
-* You need a tunnel set up <sdk install dir>/platform-tools/adb forward tcp:8080 tcp:8080
+* You need a tunnel set up `<sdk install dir>/platform-tools/adb forward tcp:8080 tcp:8080`
 
         rake remote_android
 
@@ -43,7 +43,7 @@ Runs the tests using Firefox with a mobile user agent set in the profile
 
 * You need the iphone sdk from http://developer.apple.com/devcenter/ios/index.action
 * You need iphonedriver source from http://code.google.com/p/webdriver/source/checkout
-* If the IPhone sdk Set your build configuration to Simulator / iPhone OS 4.3 / iWebDriver then build and go
+* In the IPhone sdk Set your build configuration (in the top left) to Simulator / iPhone OS 4.3 / iWebDriver then build and go
 
         rake remote_iphone
 
