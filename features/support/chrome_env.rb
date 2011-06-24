@@ -3,15 +3,13 @@ require 'capybara/dsl'
 
 #See README.md for dependencies
 
-Capybara.current_driver = :selenium
-
-Capybara.register_driver :selenium do |app|
+Capybara.register_driver :chrome do |app|
   Capybara::Driver::Selenium.new(app, :browser => :chrome)
 end
 
+Capybara.current_driver = :chrome
 Capybara.run_server = false
 Capybara.default_selector = :css
-
 
 World Capybara
 
